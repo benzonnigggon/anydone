@@ -66,7 +66,13 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="card price-hover" style="position:absolute;">
+                    <!-- <div class="recommendation" style="position:absolute;">
+                        <div class="card recommend">
+                            <h6>Anydone Recommends</h6>
+                        </div>
+                    </div> -->
+                    <div class="card price-hover">
+                        <span>Anydone recommends</span>
                         <div class="price-title">
                             <h1>Standard/Pro</h1>
                             <div class="price-subtitle">
@@ -87,18 +93,14 @@
                             <button class="btn getbtn">Get started</button>
                         </div>
                     </div>
-                    <div class="recommendation">
-                        <div class="card recommend">
-                            <h6>Anydone Recommends</h6>
-                        </div>
-                    </div>
+                    
                 </div>
                 <div class="col-md-3">
                     <div class="card price-hover">
                         <div class="price-title">
                             <h1>Enterprise</h1>
                             <div class="price-subtitle">
-                                <h6 style="padding-top:55px;"><span>Contact Sales</span> </h6>
+                                <h6 class="contact" style="padding-top:55px;">Contact Sales </h6>
                             </div>
                         </div>
                         <ul class="checkmark">

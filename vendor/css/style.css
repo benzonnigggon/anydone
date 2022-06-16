@@ -1308,7 +1308,7 @@ h6 {
     color: #403C3C;
 }
 
-.price-title h6 span {
+.price-title .contact {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -1326,22 +1326,21 @@ h6 {
     margin-top: -20px;
 }
 
-.recommend {
+.price-hover span {
     background: linear-gradient(158.73deg, #225FD1 0%, #4371FB 99.01%);
     box-shadow: 0px 6px 36px 2px rgba(35, 150, 233, 0.17);
     border-radius: 10px;
-}
-
-.recommend h6 {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 22px;
+    position: absolute;
     text-transform: capitalize;
     color: #FFFFFF;
     padding: 7px 22px;
-    margin: 0px;
+    margin-left: 20%;
+    margin-top: -15px;
     text-align: center;
 }
 
@@ -1356,7 +1355,6 @@ h6 {
     border-top: 1px solid #3569E9;
     box-shadow: 0px 6px 36px 2px rgba(35, 150, 233, 0.17);
     border-radius: 10px;
-    color: #fff;
 }
 
 .price-hover:hover>.price-title h1,
