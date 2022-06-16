@@ -22,7 +22,7 @@ body {
 }
 
 .navbar {
-    padding: 10px !important;
+    padding: 0px !important;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     /* position: relative; */
@@ -39,17 +39,20 @@ body {
 .nav-custom li {
     padding: 0 20px;
 }
-header{
+
+header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 10000;
 }
-header.sticky{
+
+header.sticky {
     background-color: white;
     box-shadow: 0px 2px 20px -6px #293568;
 }
+
 .trynow,
 .signin {
     margin: auto;
@@ -186,8 +189,8 @@ header.sticky{
 
 .components {
     padding-top: 70px;
-    margin: auto;
-    width: 80%
+    margin: 0px 15%;
+    padding-bottom: 50px;
 }
 
 .components h3 {
@@ -199,7 +202,6 @@ header.sticky{
     font-size: 24px;
     line-height: 28px;
     display: inline;
-    margin: 0 70px;
     padding: 5px 10px;
     box-sizing: border-box;
 }
@@ -209,20 +211,12 @@ header.sticky{
     border-radius: 25px;
     border-bottom: dashed;
     color: #2396E9;
+    position: relative;
 }
 
 .teamcollab {
-    height: 99.5vh;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0), #FFF9EB);
     overflow: hidden;
-}
-
-.two-dot {
-    height: 127px !important;
-    padding-left: 92%;
-    padding-top: 0px !important;
-    width: auto !important;
-    opacity: 0.5;
 }
 
 .collabimg {
@@ -230,14 +224,21 @@ header.sticky{
 }
 
 .teamcollab img {
-    width: 789px;
+    width: 100%;
+    padding-top: 5%;
+}
+
+.two-dot {
+    height: 127px !important;
+    right: 0;
+    padding-top: 0px !important;
+    width: auto !important;
+    opacity: 0.5;
     position: absolute;
-    left: 4%;
-    padding-top: 90px;
+    margin-top: 10%;
 }
 
 .team-colab-text {
-    left: 60%;
     position: relative;
     width: 393px;
 }
@@ -245,24 +246,55 @@ header.sticky{
 .team-colab-text h1 {
     color: #2396E9;
     font-family: 'Open Sans', sans-serif;
-    ;
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 2.5rem;
     line-height: 47px;
-    width: 393px;
     height: 48px;
-    padding-top: 200px;
+    padding-top: 61%;
+}
+
+.meeting-confrence img {
+    padding: 5% 7% 10% 15%;
+}
+
+.meeting-confrence .team-colab-text h1 {
+    width: 490px;
+}
+
+.meeting-confrence .team-colab-text p {
+    width: 380px;
 }
 
 .team-colab-text p {
     text-align: left;
-    position: absolute;
     padding-top: 67px;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 30px;
+}
+
+.components .carousel-indicators {
+    position: relative;
+    display: inline;
+    margin: 0;
+}
+
+.components .carousel-indicators [data-bs-target] {
+    text-indent: 0px !important;
+    opacity: 1;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: auto;
+}
+
+.team-colaboration img {
+    padding-left: 4%;
+}
+
+.task-management img {
+    padding-left: 8%;
 }
 
 .planheading {
@@ -337,7 +369,8 @@ header.sticky{
     position: absolute;
     margin-left: 35px; */
 }
-.remote-img{
+
+.remote-img {
     width: 100%;
 }
 
@@ -451,6 +484,9 @@ header.sticky{
     margin: auto;
 }
 
+
+/* Features  */
+
 .features {
     margin-left: 15%;
     margin-right: 1%;
@@ -490,6 +526,9 @@ header.sticky{
     text-decoration-line: none;
     padding-left: 8px;
 }
+
+
+/* Features end */
 
 .footer {
     background: url(../../images/bg.png);
@@ -793,9 +832,7 @@ header.sticky{
 }
 
 .about-footer {
-    background: url('../../images/bg.png');
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: url(../../images/aboutfooter.webp);
     background-size: 100%;
     height: 425px;
     overflow: hidden;
@@ -803,6 +840,7 @@ header.sticky{
 
 .about-footer img {
     width: 100%;
+    mix-blend-mode: color-burn;
 }
 
 .about-footer h1 {
@@ -836,10 +874,11 @@ header.sticky{
     padding: 10px 40px;
 }
 
-.about-footer h1{
+.about-footer h1 {
     font-size: 2em;
 }
-.about-footer button{
+
+.about-footer button {
     background-color: white;
     border: none;
     border-radius: 10px;
@@ -847,83 +886,102 @@ header.sticky{
     padding: 10px 20px;
     font-weight: 600;
 }
+
+
 /* ------Features--------*/
 
-.hero-section{
+.hero-section {
     background-color: #dbecfa;
     padding-top: 150px;
     box-shadow: 5px 2px 20px 5px #90cafa;
     z-index: 100;
 }
-.hero-image{
+
+.hero-image {
     width: 100%;
 }
-.hero-text{
+
+.hero-text {
     font-size: 2.5em;
 }
-.main-btn{
+
+.main-btn {
     padding: 5px 30px;
     font-size: 1.2em;
     border: none;
     border-radius: 5px;
     font-weight: 700;
 }
-.btnFirst{
+
+.btnFirst {
     background-color: #2396e9;
     color: white;
 }
-.btnSecond{
+
+.btnSecond {
     background-color: #dbecfa;
     color: #2396e9;
     border: 1px solid #2396e9;
     margin-left: 50px;
 }
-.feature-section{
+
+.feature-section {
     padding: 80px 0px;
     background-color: #e5edf1;
 }
-.f-title{
+
+.f-title {
     color: #080A52;
     font-weight: 700;
     letter-spacing: 2px;
     font-size: 3em;
     text-align: center;
 }
-.content-box{
+
+.content-box {
     margin: 50px 0px;
 }
-.content-box h1{
+
+.content-box h1 {
     color: #2396e9;
     font-weight: 700;
 }
-.content-box .txt-light{
+
+.content-box .txt-light {
     opacity: 0.6;
     font-size: 1.5em;
 }
-.details{
+
+.details {
     font-size: 1.1em;
 }
-.d-blue{
+
+.d-blue {
     color: #00487c;
 }
 
+
 /*--------------------------*/
-.model{
-    background-image: url("/images/bg.png"); 
+
+.model {
+    background-image: url("/images/bg.png");
     background-position: bottom right;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.model-txt{
+
+.model-txt {
     font-size: 2em;
     padding-top: 150px;
     color: white;
     line-height: 50px;
 }
-.model-img{
+
+.model-img {
     width: 100%;
 }
-.btn-white{
+
+.btn-white {
     background-color: white;
     color: #080A52;
     margin: 30px 0px 0px 221px;
@@ -935,15 +993,17 @@ header.sticky{
     font-weight: 600;
 }
 
+
 /* -------sign in form------------ */
 
-.form-bg{
+.form-bg {
     background-image: url('images/formbg.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.login-form{
+
+.login-form {
     width: 500px!important;
     margin: 100px auto!important;
     background-color: white;
@@ -951,76 +1011,51 @@ header.sticky{
     padding: 50px 50px!important;
     font-family: 'Roboto', sans-serif;
 }
-.txt-center{
+
+.txt-center {
     text-align: center;
 }
-.btn-wide{
+
+.btn-wide {
     width: 100%;
 }
 
+
 /*------------Careers--------------*/
 
-.career-txt{
+.career-txt {
     font-size: 3em;
     margin-top: 60px;
 }
-.career-p{
+
+.career-p {
     font-size: 20px;
     margin-top: 20px;
     color: #080A52;
 }
-.career-section{
+
+.career-section {
     padding-top: 100px;
     /* box-shadow: 5px 2px 20px 5px #90cafa; */
 }
-.jobs{
+
+.jobs {
     padding: 50px 0px;
 }
-.jobs h1{
+
+.jobs h1 {
     padding: 50px 0px;
 }
-.jobs h4{
-    margin: 20px 0px;
-}
-.apply-btn{
+
+.apply-btn {
     border: 1px solid #080A52;
     color: #080A52;
-    padding: 0px 10px;
+    padding: 5px 10px;
     background-color: white;
     border-radius: 5px;
 }
-main.main-box {
-    height: 500px;
-    background-image: url('../../images/bg.png');
-}
-.main-content {
-    padding-top: 180px;
-    text-align: center;
-}
-.main-content h1{
-    font-size: 3em;
-    color: white;
-    font-weight: 700;
-}
-.main-content p{
-    font-size: 1.5em;
-    color: white;
-    font-weight: 500;
-}
-.desc-list {
-    padding: 60px 0px;
-}
-.desc-list .desc-box{
-    padding: 10px 0px;
-}
-.desc-list h3{
-    color: #0D86EB;
-    letter-spacing: 1px;
 
-}
-.txt-green{
-    color: green!important;
-}
+
 /* -------about end-------- */
 
 
@@ -1310,6 +1345,12 @@ h6 {
     text-align: center;
 }
 
+.price-hover {
+    box-shadow: 0px 6px 36px 2px rgba(35, 150, 233, 0.17);
+    border-radius: 10px !important;
+    border-top: 1px solid #3569E9 !important;
+}
+
 .price-hover:hover {
     background: linear-gradient(158.73deg, #6DE6F1 0%, #3956FE 99.01%);
     border-top: 1px solid #3569E9;
@@ -1318,12 +1359,71 @@ h6 {
     color: #fff;
 }
 
-.price-title h1:hover {
+.price-hover:hover>.price-title h1,
+.price-hover:hover>.checkmark li {
     color: #fff;
 }
 
-.checkmark li:hover {
+.price-hover:hover>.price-title .price-subtitle h6,
+.price-hover:hover>.price-title .price-subtitle h6 span,
+.price-hover:hover>.price-title .price-subtitle h2 {
     color: #fff;
+}
+
+.pricing-list {
+    padding-top: 100px;
+    margin: 0 6%;
+    text-align: center;
+}
+
+.price-left {
+    text-align: left;
+}
+
+.pricing-title {
+    padding-bottom: 30px;
+}
+
+.pricing-title h5,
+.pricing-title h6 {
+    padding-top: 0px;
+}
+
+.pricing-title h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #376AF5;
+}
+
+.left-border {
+    border-left: 0.9px solid #DCEDF7;
+}
+
+.pricing-title h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 1.12px;
+    text-transform: capitalize;
+    color: #403C3C;
+}
+
+.row-height {
+    height: 52px;
+}
+
+.pricing-subtitle {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #232121;
 }
 
 
@@ -1380,6 +1480,49 @@ h6 {
 /* pricing end */
 
 
+/* privacy */
+
+.privacy-banner {
+    background: linear-gradient(158.73deg, #3956FE 0%, #6DE6F1 99.01%);
+    box-shadow: 0px 6px 36px 2px rgba(35, 150, 233, 0.17);
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    padding-top: 75px;
+}
+
+.privacy-banner img {
+    width: 100%;
+    mix-blend-mode: soft-light;
+    background: linear-gradient(41.49deg, #4D8DF9 0.83%, #4B88FA 14.3%, #62C7F4 37.86%, #62C7F4 56.33%, #62C7F4 73.41%, #FAFAFB 90.93%, #FFFFFF 95.65%);
+}
+
+.privacy-banner h1 {
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.09);
+    text-align: center;
+}
+
+.privacy-banner h1 span {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 60px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+}
+
+
+/* privacy end */
+
+
 /* responsive */
 
 @media only screen and (max-width:1200px) {
@@ -1397,11 +1540,7 @@ h6 {
     }
 }
 
-@media only screen and (min-width:1200px) and (max-width:1440px) {
-    .components h3 {
-        margin: 0px 60px;
-    }
-}
+@media only screen and (min-width:1200px) and (max-width:1440px) {}
 
 
 /* responsive */
