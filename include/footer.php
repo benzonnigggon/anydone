@@ -99,7 +99,7 @@
                             <a href=""><img src="images/appstore.png" alt=""></a>
                         </li>
                         <li class="google">
-                            <a href=""><img style="width:70px;" src="images/googleplay.png" alt=""></a>
+                            <a href=""><img src="images/googleplay.png" alt=""></a>
                         </li>
                     </ul>
                 </div>

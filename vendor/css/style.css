@@ -624,6 +624,10 @@ header.sticky {
     color: #656565;
 }
 
+.footer-title ul {
+    padding: 0px;
+}
+
 .footer-logo img {
     width: 217px;
 }
@@ -637,12 +641,19 @@ header.sticky {
     padding: 0px 10px;
 }
 
+.new-footer ul li a img {
+    width: auto;
+    height: 15px;
+    color: #C5C5C5;
+}
+
 .google {
     padding: 0px 5px !important;
 }
 
 .google img {
-    width: 60px;
+    width: 60px !important;
+    height: 18px !important;
 }
 
 
