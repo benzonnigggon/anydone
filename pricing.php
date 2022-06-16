@@ -130,13 +130,26 @@
                 <div class="col-2"><h6>Enterprise</h6></div>
             </div>
         </div>
-        <div class="pricing-subtitle">
-            <div class="row row-height">
-                <div class="col-3 price-left">Messsage history</div>
-                <div class="col-2 left-border">15k messages </div>
-                <div class="col-2">Access all</div>
-                <div class="col-2">Access all</div>
-                <div class="col-2">Access all</div>
+        <div class="white-bg">
+            <div class="pricing-subtitle">
+                <div class="row row-height">
+                    <div class="col-3 price-left">Messsage history</div>
+                    <div class="col-2 left-border">15k messages </div>
+                    <div class="col-2 left-border">Access all</div>
+                    <div class="col-2 left-border">Access all</div>
+                    <div class="col-2 left-border">Access all</div>
+                </div>
+            </div>
+        </div>
+        <div class="grey-bg">
+            <div class="pricing-subtitle">
+                <div class="row row-height">
+                    <div class="col-3 price-left">Edit videos, add voiceover and share </div>
+                    <div class="col-2 left-border">&#10003; </div>
+                    <div class="col-2 left-border">&#10003;</div>
+                    <div class="col-2 left-border">&#10003;</div>
+                    <div class="col-2 left-border">&#10003;</div>
+                </div>
             </div>
         </div>
     </div>

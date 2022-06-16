@@ -1376,6 +1376,8 @@ h6 {
 
 .price-left {
     text-align: left;
+    display: flex;
+    align-items: center;
 }
 
 .pricing-title {
@@ -1398,6 +1400,10 @@ h6 {
 
 .left-border {
     border-left: 0.9px solid #DCEDF7;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .pricing-title h6 {
@@ -1412,7 +1418,16 @@ h6 {
 }
 
 .row-height {
+    align-content: center;
     height: 52px;
+}
+
+.row-height .price-left {
+    padding-left: 20px;
+}
+
+.grey-bg {
+    background: #EDF4F8;
 }
 
 .pricing-subtitle {
