@@ -248,7 +248,7 @@
             <div class="footer-text">
                 <h1>Maximize productivity within an automated and agile environment.</h1>
                 <div class="buton-footer">
-                    <div class="btn btn-footer">TRY NOW</div>
+                    <button class="btn btn-footer-baner">Try Now</button>
                 </div>
             </div>
         </div>

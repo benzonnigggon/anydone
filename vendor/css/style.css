@@ -800,13 +800,15 @@ header.sticky {
 }
 
 .team-members {
-    position: absolute;
-    padding: 0% 13%;
-    text-align: center;
+    margin: 0 12%;
 }
 
 .dipak {
-    margin: 0px 190px;
+    text-align: center;
+}
+
+.ashok {
+    text-align: right;
 }
 
 .team-members .members {
@@ -835,6 +837,7 @@ header.sticky {
     text-align: center;
     letter-spacing: 0.04em;
     color: #656565;
+    padding: 0px;
 }
 
 .team-members img {
@@ -852,11 +855,12 @@ header.sticky {
 .about-footer img {
     width: 100%;
     mix-blend-mode: color-burn;
+    position: relative;
 }
 
 .about-footer h1 {
-    /* position: absolute; */
-    font-family: 'Philosopher';
+    position: absolute;
+    font-family: 'Philosopher', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -872,7 +876,8 @@ header.sticky {
     text-align: center;
 }
 
-.btn-about-footer {
+
+/* .btn-about-footer {
     background: #fff;
     border-radius: 15.31px;
     font-style: normal;
@@ -883,19 +888,22 @@ header.sticky {
     text-transform: capitalize;
     color: #2443D6;
     padding: 10px 40px;
-}
+} */
 
-.about-footer h1 {
-    font-size: 2em;
-}
-
-.about-footer button {
-    background-color: white;
+.btn-footer-baner {
+    background-color: white !important;
     border: none;
-    border-radius: 10px;
-    color: #080A52;
+    width: 172px;
+    border-radius: 10px !important;
     padding: 10px 20px;
-    font-weight: 600;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700!important;
+    font-size: 18px !important;
+    line-height: 21px;
+    letter-spacing: 0.823448px;
+    text-transform: capitalize;
+    color: #2443D6!important;
 }
 
 
