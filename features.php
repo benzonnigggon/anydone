@@ -9,7 +9,7 @@
     <section class="hero-section">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <h3 class="hero-text">All the apps makes <br> work easier in <br><span class="d-blue"> one</span><span class="green">space</span></h3>    
                     <p class="career-p">Find all apps in one place and make <br> work easier</p>
                     
@@ -18,8 +18,8 @@
                         <a href="#"><button class="main-btn btnSecond">SEE ALL FEATURES</button></a>
                     </div>
                 </div>
-                <div class="col-md-8">
-                    <img src="images/features.webp" class="hero-image" alt="">
+                <div class="col-md-6">
+                    <img src="images/taskmanagement.webp" class="hero-image" alt="">
                 </div>
             </div>
         </div>

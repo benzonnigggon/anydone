@@ -1,7 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
     <?php
         include "include/nav.php";
     ?>
@@ -10,8 +6,7 @@
     <div class="main">
         <div class="banner">
             <div class="slogan">
-                <h1 class="title"><span class="blue">Any</span><span class="green">done</span> for <br>
-                    <strong>simplified teamwork</strong></h1>
+                <h1 class="title"><span class="blue">Any</span><span class="green">done</span> for <br> <strong>simplified teamwork</strong></h1>
                 <div class="button">
                     <button class="btn btn-primary">TRY NOW</button>
                 </div>
@@ -25,103 +20,25 @@
             </div>
             <div class="solution">
                 <h2>One comprehensive soution!</h2>
-                <p>Bring structure and automation to your work with our all-in-one AI-powered <br><span>Anydone</span>,
-                    so you don't need to use different tools for every task.</p>
+                <p>Bring structure and automation to your work with our all-in-one AI-powered <br><span>Anydone</span>, so you don't need to use different tools for every task.</p>
             </div>
         </div>
         <div class="teamcollab">
-            <img class="two-dot" src="images/dotted1.png" alt="">
             <div class="components">
-                <div class="carousel-indicators">
-                    <div class="row">
-                        <div class="col-4">
-                            <button data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                                aria-current="true" aria-label="Slide 1">
-                                <h3>Team collaboration</h3>
-                            </button>
-                        </div>
-                        <div class="col-4" style="text-align:center;">
-                            <button data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                                aria-label="Slide 2">
-                                <h3>Task Management</h3>
-                            </button>
-                        </div>
-                        <div class="col-4" style="text-align:end">
-                            <button data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                                aria-label="Slide 3">
-                                <h3>Metting and Conference</h3>
-                            </button>
-                        </div>
-                    </div>
-                </div>
+                <h3>Team collaboration</h3>
+                <h3>Task Management</h3>
+                <h3>Metting and Conference</h3>
             </div>
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="team-colaboration d-block w-100">
-                            <div class="row">
-                                <div class="col-lg-7">
-                                    <div class="collabimg">
-                                        <img src="images/Teamcolllabimg.webp" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-lg-5">
-                                    <div class="team-colab-text">
-                                        <h1>Team Collaboration</h1>
-                                        <p>An AI messaging platform where teams can easily communicate and collaborate
-                                            to get work done efficiently and effectively.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="task-management d-block w-100">
-                            <div class="row">
-                                <div class="col-lg-7">
-                                    <div class="collabimg">
-                                        <img src="images/taskmanagement.webp" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-lg-5">
-                                    <div class="team-colab-text">
-                                        <h1>Task Management</h1>
-                                        <p>Automate your manual task management procedure with AI to make work more
-                                            efficient and save time.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item ">
-                        <div class="meeting-confrence">
-                            <div class="row">
-                                <div class="col-lg-7">
-                                    <div class="collabimg">
-                                        <img src="images/meetingandconferences.webp" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-lg-5">
-                                    <div class="team-colab-text">
-                                        <h1>Meeting and Conferences</h1>
-                                        <p>Meetings are auto scheduled according to your availability making your work process more smooth and hassle free.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button> -->
+            <div class="collabimg">
+                <img src="images/Teamcolllabimg.webp" alt="">
+                <img class="two-dot" src="images/dotted1.png" alt="">
             </div>
+            <div class="team-colab-text">
+                <h1>Team Collaboration</h1>
+                <p>An AI messaging platform where teams can easily communicate and collaborate to get work done efficiently and effectively.</p>
+            </div>
+
+
         </div>
         <div class="plan">
             <div class="planheading">
@@ -184,8 +101,7 @@
                     <div class="value-title">
                         <h5>Secure and Reliable</h5>
                         <h2>Data protection and security are sorted with Anydone</h2>
-                        <p>All the data are protected under an end-to-end encryption facility on all activities at all
-                            times.</p>
+                        <p>All the data are protected under an end-to-end encryption facility on all activities at all times.</p>
                     </div>
                 </div>
             </div>

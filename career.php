@@ -1,9 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <?php
-        include 'include/nav.php';
-    ?>
+<?php
+    include 'include/nav.php';
+?>
 
     <!--Main Hero section-->
     <section class="career-section">
@@ -37,60 +34,49 @@
                     <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
                         <div class="row">
                             <h4 id="list-item-1">Front End Developers</h4>
-
                             <div class="col-md-9">
                                 <p>React Native Developer</p>
                             </div>
                             <div class="col-md-3">
-                                <a href=""><button class='apply-btn'>Apply now</button></a></span>
+                                <a href="careerDetails.php"><button class='apply-btn'>Apply now</button></a></span>
                             </div>
-                            <!-- <p>React Native Developer</p> <span><a href=""><button>Apply now</button></a></span><hr> -->
+                            <div class="col-md-9">
+                                <p>React Native Developer</p>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="careerDetails.php"><button class='apply-btn'>Apply now</button></a></span>
+                            </div>
                         </div><hr>
                         <div class="row">
-                            <h4 id="list-item-1">Front End Developers</h4>
+                            <h4 id="list-item-2">Front End Developers</h4>
 
                             <div class="col-md-9">
                                 <p>React Native Developer</p>
                             </div>
                             <div class="col-md-3">
-                                <a href=""><button class='apply-btn'>Apply now</button></a></span>
+                                <a href="careerDetails.php"><button class='apply-btn'>Apply now</button></a></span>
                             </div>
-                            <!-- <p>React Native Developer</p> <span><a href=""><button>Apply now</button></a></span><hr> -->
                         </div><hr>
                         <div class="row">
-                            <h4 id="list-item-1">Front End Developers</h4>
+                            <h4 id="list-item-3">Front End Developers</h4>
 
                             <div class="col-md-9">
                                 <p>React Native Developer</p>
                             </div>
                             <div class="col-md-3">
-                                <a href=""><button class='apply-btn'>Apply now</button></a></span>
+                                <a href="careerDetails.php"><button class='apply-btn'>Apply now</button></a></span>
                             </div>
-                            <!-- <p>React Native Developer</p> <span><a href=""><button>Apply now</button></a></span><hr> -->
                         </div><hr>
                         <div class="row">
-                            <h4 id="list-item-1">Front End Developers</h4>
+                            <h4 id="list-item-4">Front End Developers</h4>
 
                             <div class="col-md-9">
                                 <p>React Native Developer</p>
                             </div>
                             <div class="col-md-3">
-                                <a href=""><button class='apply-btn'>Apply now</button></a></span>
+                                <a href="careerDetails.php"><button class='apply-btn'>Apply now</button></a></span>
                             </div>
-                            <!-- <p>React Native Developer</p> <span><a href=""><button>Apply now</button></a></span><hr> -->
                         </div><hr>
-                        <div class="row">
-                            <h4 id="list-item-1">Front End Developers</h4>
-
-                            <div class="col-md-9">
-                                <p>React Native Developer</p>
-                            </div>
-                            <div class="col-md-3">
-                                <a href=""><button class='apply-btn'>Apply now</button></a></span>
-                            </div>
-                            <!-- <p>React Native Developer</p> <span><a href=""><button>Apply now</button></a></span><hr> -->
-                        </div><hr>
-                            <!-- <p>React Native Developer</p> <span><a href=""><button>Apply now</button></a></span><hr> -->
                     </div>
                 </div>
             </div>

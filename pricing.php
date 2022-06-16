@@ -118,26 +118,6 @@
             </div>
         </div>
     </div>
-    <div class="pricing-list">
-        <div class="pricing-title">
-            <div class="row">
-                <div class="col-3 price-left"><h5>Messaging and Calls</h5></div>
-                <div class="col-2"><h6>Free</h6></div>
-                <div class="col-2"><h6>Basic/Growth</h6></div>
-                <div class="col-2"><h6>Standard/pro</h6></div>
-                <div class="col-2"><h6>Enterprise</h6></div>
-            </div>
-        </div>
-        <div class="pricing-subtitle">
-            <div class="row row-height">
-                <div class="col-3 price-left">Messsage history</div>
-                <div class="col-2 left-border">15k messages </div>
-                <div class="col-2">Access all</div>
-                <div class="col-2">Access all</div>
-                <div class="col-2">Access all</div>
-            </div>
-        </div>
-    </div>
     <?php
         include 'include/footer.php';
     ?>
