@@ -1521,12 +1521,13 @@ h6 {
     align-items: center;
     justify-items: center;
     padding-top: 75px;
+    height: 365px;
 }
 
 .privacy-banner img {
     width: 100%;
     mix-blend-mode: soft-light;
-    background: linear-gradient(41.49deg, #4D8DF9 0.83%, #4B88FA 14.3%, #62C7F4 37.86%, #62C7F4 56.33%, #62C7F4 73.41%, #FAFAFB 90.93%, #FFFFFF 95.65%);
+    height: 285px;
 }
 
 .privacy-banner h1 {
@@ -1549,6 +1550,58 @@ h6 {
     line-height: 60px;
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+}
+
+.privacy-part {
+    padding: 5% 12%;
+}
+
+.privacy-list ul {
+    overflow-y: scroll;
+    direction: rtl
+}
+
+.privacy-details p,
+.sub-part {
+    /* .part-I p,
+.sub-part,
+.part-II p,
+.part-III p,
+.part-I-information p { */
+    padding-left: 20px;
+    margin-bottom: 0px;
+}
+
+.privacy-details h4,
+.privacy-details h6 {
+    font-weight: 700px;
+}
+
+.part-I-information li {
+    list-style: none;
+}
+
+.provide-us li {
+    list-style: lower-roman;
+}
+
+.provide-us li span {
+    font-weight: 700;
+}
+
+.part-III .sub-part p {
+    padding-left: 0px !important;
+}
+
+.privacy-list ul li {
+    padding: 10px 0px;
+    list-style: none;
+    direction: ltr;
+    text-align: left;
+}
+
+.privacy-details {
+    text-align: justify;
 }
 
 
