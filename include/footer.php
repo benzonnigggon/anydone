@@ -78,7 +78,7 @@
                     <a href="terms.php">Terms of Service</a>
                 </div>
                 <div class="col-md-2">
-                    <ul>
+                    <ul style="padding-left:0px">
                         <li>
                             <a href=""><img src="images/facebook.png" alt=""></a>
                         </li>
@@ -94,7 +94,7 @@
                     </ul>
                 </div>
                 <div class="col-md-2">
-                    <ul>
+                    <ul style="padding-left:0px">
                         <li class="google">
                             <a href=""><img src="images/appstore.png" alt=""></a>
                         </li>

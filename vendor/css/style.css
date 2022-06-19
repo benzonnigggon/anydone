@@ -1574,10 +1574,14 @@ h6 {
 
 .privacy-details h4,
 .privacy-details h6 {
-    font-weight: 700px;
+    font-weight: 700;
 }
 
 .part-I-information li {
+    list-style: lower-roman;
+}
+
+.nostyle li {
     list-style: none;
 }
 
@@ -1585,7 +1589,8 @@ h6 {
     list-style: lower-roman;
 }
 
-.provide-us li span {
+.part-I-information li span,
+.part-I-information p span {
     font-weight: 700;
 }
 

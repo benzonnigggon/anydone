@@ -152,7 +152,98 @@
                 </div>
             </div>
         </div>
+        <div class="white-bg">
+            <div class="pricing-subtitle">
+                <div class="row row-height">
+                    <div class="col-3 price-left">Audio recording </div>
+                    <div class="col-2 left-border">&#10003;</div>
+                    <div class="col-2 left-border">&#10003;</div>
+                    <div class="col-2 left-border">&#10003;</div>
+                    <div class="col-2 left-border">&#10003;</div>
+                </div>
+            </div>
+        </div>
+        <div class="grey-bg">
+            <div class="pricing-subtitle">
+                <div class="row row-height">
+                    <div class="col-3 price-left">Screen recording with or without video</div>
+                    <div class="col-2 left-border">&#10003; </div>
+                    <div class="col-2 left-border">&#10003;</div>
+                    <div class="col-2 left-border">&#10003;</div>
+                    <div class="col-2 left-border">&#10003;</div>
+                </div>
+            </div>
+        </div>
+        <div class="white-bg">
+            <div class="pricing-subtitle">
+                <div class="row row-height">
+                    <div class="col-3 price-left">Messages import from third party apps </div>
+                    <div class="col-2 left-border"></div>
+                    <div class="col-2 left-border">&#10003;</div>
+                    <div class="col-2 left-border">&#10003;</div>
+                    <div class="col-2 left-border">&#10003;</div>
+                </div>
+            </div>
+        </div>
+        <div class="grey-bg">
+            <div class="pricing-subtitle">
+                <div class="row row-height">
+                    <div class="col-3 price-left">Quick call</div>
+                    <div class="col-2 left-border"></div>
+                    <div class="col-2 left-border">&#10003;</div>
+                    <div class="col-2 left-border">&#10003;</div>
+                    <div class="col-2 left-border">&#10003;</div>
+                </div>
+            </div>
+        </div>
+        <div class="white-bg">
+            <div class="pricing-subtitle">
+                <div class="row row-height">
+                    <div class="col-3 price-left">Video call</div>
+                    <div class="col-2 left-border">Upto 2 members</div>
+                    <div class="col-2 left-border">Upto 15 members</div>
+                    <div class="col-2 left-border">Upto 35 members</div>
+                    <div class="col-2 left-border">Unlimited members</div>
+                </div>
+            </div>
+        </div>
+        <div class="grey-bg">
+            <div class="pricing-subtitle">
+                <div class="row row-height">
+                    <div class="col-3 price-left">Video calling with AR</div>
+                    <div class="col-2 left-border"></div>
+                    <div class="col-2 left-border">&#10003;</div>
+                    <div class="col-2 left-border">&#10003;</div>
+                    <div class="col-2 left-border">&#10003;</div>
+                </div>
+            </div>
+        </div>
+        <div class="white-bg">
+            <div class="pricing-subtitle">
+                <div class="row row-height">
+                    <div class="col-3 price-left">Screen sharing </div>
+                    <div class="col-2 left-border">&#10003;</div>
+                    <div class="col-2 left-border">&#10003;</div>
+                    <div class="col-2 left-border">&#10003;</div>
+                    <div class="col-2 left-border">&#10003;</div>
+                </div>
+            </div>
+        </div>
+        <div class="grey-bg">
+            <div class="pricing-subtitle">
+                <div class="row row-height">
+                    <div class="col-3 price-left">Code Sharing </div>
+                    <div class="col-2 left-border"></div>
+                    <div class="col-2 left-border">&#10003;</div>
+                    <div class="col-2 left-border">&#10003;</div>
+                    <div class="col-2 left-border">&#10003;</div>
+                </div>
+            </div>
+        </div>
     </div>
+    <?php
+        include 'include/price-taskmanagement.php';
+    ?>
     <?php
         include 'include/footer.php';
     ?>
