@@ -81,7 +81,7 @@
                             </div>
                         </div>
                         <ul class="checkmark">
-                            <li>Everything under Basic / Growth</li>
+                            <li>Everything under Basic</li>
                             <li>Conference calls with upto 500 participants</li>
                             <li>Apps integration - 30 apps</li>
                             <li>Custom business email creation - max: 25</li>
@@ -104,7 +104,7 @@
                             </div>
                         </div>
                         <ul class="checkmark">
-                            <li>Everything under Standard / Pro</li>
+                            <li>Everything under Standard</li>
                             <li>End-to-End Encrypted Calls and Messages</li>
                             <li>Apps integration - Unlimited apps</li>
                             <li>Global standard security compliance like HIPAA</li>
@@ -243,6 +243,18 @@
     </div>
     <?php
         include 'include/price-taskmanagement.php';
+    ?>
+    <?php
+        include 'include/taskmngtprice.php';
+    ?>
+    <?php
+        include 'include/automationprice.php';
+    ?>
+    <?php
+        include 'include/adminprice.php';
+    ?>
+    <?php
+        include 'include/storageprice.php';
     ?>
     <?php
         include 'include/footer.php';
