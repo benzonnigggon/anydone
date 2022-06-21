@@ -16,7 +16,7 @@
                     <button class="btn btn-primary">TRY NOW</button>
                 </div>
             </div>
-            <img class="homebanner" src="images/homebanner.png" alt="">
+            <img class="homebanner" src="images/newbanner.webp" alt="">
         </div>
         <div class="mid-bar">
             <img src="images/Rectangle963.png" alt="">
@@ -67,7 +67,7 @@
                                 </div>
                                 <div class="col-lg-5">
                                     <div class="team-colab-text">
-                                        <h1>Team Collaboration</h1>
+                                        <h1>Convenient messaging platform</h1>
                                         <p>An AI messaging platform where teams can easily communicate and collaborate
                                             to get work done efficiently and effectively.</p>
                                     </div>
@@ -232,8 +232,8 @@
                         <h5>Integration</h5>
                     </div>
                     <div class="col-md-4 features-inline">
-                        <img src="images/accessibility.png">
-                        <h5>Accessibility</h5>
+                        <img src="images/Privacy.png">
+                        <h5>Privacy and Security</h5>
                     </div>
                 </div>
             </div>

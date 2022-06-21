@@ -191,16 +191,16 @@
         </div>
     </div>
     <div class="footer">
-            <div class="right-footer">
-                <img class="cta " src="images/CTAgirl.webp " alt=" ">
-            </div>
-            <div class="footer-text">
-                <h1>Maximize productivity within an automated and agile environment.</h1>
-                <div class="buton-footer">
-                    <button class="btn btn-footer-baner">Try Now</button>
-                </div>
+        <div class="right-footer">
+            <img class="cta " src="images/CTAgirl.webp " alt=" ">
+        </div>
+        <div class="footer-text">
+            <h1>Maximize productivity within an automated and agile environment.</h1>
+            <div class="buton-footer">
+                <button class="btn btn-footer-baner">Try Now</button>
             </div>
         </div>
+    </div>
     <?php
         include 'include/footer.php';
     ?>

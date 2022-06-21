@@ -72,7 +72,7 @@
                     &#169;2022 Anydone . All Rights Reserved .
                 </div>
                 <div class="col-md-2">
-                    <a href="">Privacy Policy</a>
+                    <a href="privacy.php">Privacy Policy</a>
                 </div>
                 <div class="col-md-2">
                     <a href="terms.php">Terms of Service</a>

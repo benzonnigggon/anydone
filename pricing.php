@@ -15,7 +15,7 @@
         <div class="check-button">
             <ul>
                 <li>Monthly</li>
-                <li><input type="checkbox"></li>
+                <li><input type="checkbox" id="checbox" onclick="check()" ; /></li>
                 <li>Yearly</li>
             </ul>
         </div>
@@ -48,8 +48,14 @@
                         <div class="price-title">
                             <h1>Basic/Growth</h1>
                             <div class="price-subtitle">
-                                <h2>$15</h2>
-                                <h6>per user/month</h6>
+                                <div class="text1">
+                                    <h2>$10</h2>
+                                    <h6>per user/month</h6>
+                                </div>
+                                <div class="text2">
+                                    <h2>$15</h2>
+                                    <h6>per user/month</h6>
+                                </div>
                             </div>
                         </div>
                         <ul class="checkmark">
@@ -76,8 +82,14 @@
                         <div class="price-title">
                             <h1>Standard/Pro</h1>
                             <div class="price-subtitle">
-                                <h2>$25</h2>
-                                <h6>per user/month</h6>
+                                <div class="text1">
+                                    <h2>$20</h2>
+                                    <h6>per user/month</h6>
+                                </div>
+                                <div class="text2">
+                                    <h2>$25</h2>
+                                    <h6>per user/month</h6>
+                                </div>
                             </div>
                         </div>
                         <ul class="checkmark">
@@ -120,6 +132,7 @@
             </div>
         </div>
     </div>
+    <div class="package-details">
     <div class="pricing-list">
         <div class="pricing-title">
             <div class="row">
@@ -257,7 +270,48 @@
         include 'include/storageprice.php';
     ?>
     <?php
+        include 'include/supportprice.php';
+    ?>
+    </div>
+
+
+    <!-- footer part -->
+
+    <div class="footer">
+        <div class="price-right-footer">
+            <img class="cta-2 " src="images/CTAgirl-2.webp " alt=" ">
+        </div>
+        <div class="price-footer-text">
+            <h1>A combination of powerful AI products in one single platform is definitely a cost effective solution.</h1>
+            <div class="price-btn-center">
+                <div class="buton-footer">
+                    <button class="btn btn-footer-baner">Try Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <?php
         include 'include/footer.php';
     ?>
+    
+    <script>
+        function check() {
+            var checkBox = document.getElementById("checbox");
+            var text1 = document.getElementsByClassName("text1");
+            var text2 = document.getElementsByClassName("text2");
+
+            for (var i = 0; i < text1.length; i++) {
+                if (checkBox.checked == true) {
+                    text1[i].style.display = "block";
+                    text2[i].style.display = "none";
+                } else if (checkBox.checked == false) {
+                    text1[i].style.display = "none";
+                    text2[i].style.display = "block";
+                }
+            }
+        }
+        check();
+    </script>
 </body>
 </html>

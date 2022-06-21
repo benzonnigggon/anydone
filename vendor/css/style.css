@@ -7,6 +7,7 @@
 
 /* googlefonts */
 
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@700&display=swap');
 
 /* googlefonts */
@@ -123,13 +124,11 @@ header.sticky {
 
 .homebanner {
     width: 100%;
-    margin-bottom: 150px;
-    margin-top: -150px;
-    position: absolute;
+    padding: 0 8%;
 }
 
 .button {
-    padding-top: 70px;
+    padding: 50px 0;
 }
 
 .button button {
@@ -450,8 +449,7 @@ header.sticky {
 }
 
 .takeaplan {
-    height: 640px;
-    background: linear-gradient(to bottom, #fef9eb, #fff);
+    background: linear-gradient(180deg, #FFF9EB 0%, rgba(248, 248, 255, 0) 92.5%);
     text-align: center;
 }
 
@@ -488,27 +486,32 @@ header.sticky {
 /* Features  */
 
 .features {
-    margin-left: 15%;
-    margin-right: 1%;
-    text-align: left;
+    padding-left: 5%;
+    padding-right: 5%;
     padding-top: 70px;
 }
 
 .features-inline {
     margin-bottom: 30px;
+    align-items: center;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
 }
 
 .features-inline img,
 .features-inline h5 {
-    display: inline;
-    margin: 0px 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
     font-size: 20px;
-    color: #5D6C82;
+    line-height: 27px;
+    color: #0F629E;
 }
 
 .features img {
-    height: 45px;
-    width: 45px;
+    height: 87px;
+    width: 85px;
 }
 
 .feature-link {
@@ -1168,6 +1171,10 @@ header.sticky {
 
 /* pricing */
 
+.package-details {
+    padding-bottom: 70px;
+}
+
 .pricing-banner {
     background: radial-gradient(72.21% 48.14% at 40.25% 23.34%, #FFFFFF 18.02%, #DCEDF7 99.69%);
 }
@@ -1456,6 +1463,41 @@ h6 {
     font-size: 16px;
     line-height: 18px;
     color: #232121;
+}
+
+.cta-2 {
+    position: relative;
+    height: 532px;
+    padding-top: 10%;
+}
+
+.price-right-footer {
+    float: right;
+    margin-right: 4%;
+}
+
+.price-btn-center {
+    text-align: center
+}
+
+.price-btn-center .buton-footer {
+    padding-left: 0;
+}
+
+.price-footer-text {
+    position: absolute;
+    padding-top: 7.5%;
+    padding-left: 7%;
+    width: 80%;
+}
+
+.price-footer-text h1 {
+    font-family: 'Philosopher', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42.8652px;
+    line-height: 56px;
+    color: #FFFFFF;
 }
 
 
